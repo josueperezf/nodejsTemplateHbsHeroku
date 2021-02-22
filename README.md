@@ -22,6 +22,12 @@ pasos:
 
 3. no es obligatorio, pero se recomienda subir el sitio a git, teniendo el .gitignore para la carpeta node_module/ 
 
+4. ir a heroku, crear un sitio, descargar e instalar heroku cli <https://devcenter.heroku.com/articles/heroku-cli>
+
+5. reiniciar el equipo si no reconoce el comando *heroku --version* 
+
+6. seguimos los pasos de aca <https://dashboard.heroku.com/apps/curso-node-josue/deploy/heroku-git>
+
 ## plugins basicos
 
 si se instala un paquete indicando que es de tipo save, sera un paquete de produccion, si decimos que es de tipo *--save-dev* es que ese paquete nos sirve solo cuando estemos programando, que cuando subamos codigos al servidor no se instalaran alla, ejemplo nodemon, nos sirve para que compile y demas, pero en produccion no nos sirve de nada

@@ -15,7 +15,7 @@ hbs.registerPartials(__dirname + '/views/partials/', function (err) {});
 app.get('/', (req, res) => {
   //res.render('./index.html');
   // res.send('Hello World!')
-  res.render('home',{nombre:'josue', titulo:'Curso de Node'});
+  res.render('home',{nombre:'josue Perez', titulo:'Curso de Node'});
   // res.end();
 })
 app.get('/generic', (req, res) => {

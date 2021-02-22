@@ -20,13 +20,19 @@ pasos:
     "start": "node app.js"
     ```
 
-3. no es obligatorio, pero se recomienda subir el sitio a git, teniendo el .gitignore para la carpeta node_module/ 
+3. no es obligatorio, pero se recomienda tener en el proyecto git. sino esta se crea con git init. si tenemos el proyecto en github 'por ejemplo', y lo agregarmos a heroku cli, tendriamos dos remote 'origin y heroku', se podria ver con git remote -v teniendo el .gitignore para la carpeta node_module/ esto lo veremos en detalle en el paso 6 y 7
 
 4. ir a heroku, crear un sitio, descargar e instalar heroku cli <https://devcenter.heroku.com/articles/heroku-cli>
 
 5. reiniciar el equipo si no reconoce el comando *heroku --version* 
 
 6. seguimos los pasos de aca <https://dashboard.heroku.com/apps/curso-node-josue/deploy/heroku-git>
+
+7. para actualizar los cambios podemos hacer 
+
+    ```
+        git push heroku master
+    ```
 
 ## plugins basicos
 
